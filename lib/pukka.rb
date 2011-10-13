@@ -1,5 +1,6 @@
-require "pukka/version"
+require 'pukka/version'
+require 'pukka/email_format_validator'
 
 module Pukka
-  # Your code goes here...
+  #autoload :EmailFormatValidator, 'pukka/email_format_validator'
 end
